@@ -24,6 +24,6 @@ class Solution {
 }
 
 let solution = Solution()
-print(solution.intersection(nums1, nums2))
-print(solution.intersection(nums2, nums4))
+print(solution.intersection(nums1, nums2)) // output: [2]
+print(solution.intersection(nums2, nums4)) // output: [9,4] ([4,9] also accepted)
 
